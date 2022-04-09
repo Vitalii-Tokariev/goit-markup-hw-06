@@ -70,6 +70,79 @@
                   <use href="./images/sprite.svg#close-icon"></use>
                 </svg>
               </button>
+              <form class="contact-form">
+                <p class="form-name">Оставьте свои данные, мы вам перезвоним</p>
+                <label class="contact-form-field">
+                  <span class="input-name">Имя</span>
+                  <span class="contact-form-input-wrapper">
+                    <input
+                      name="user_name"
+                      class="contact-form-input"
+                      type="text"
+                      required
+                    />
+                    <svg width="18" height="18" class="contact-form-icon">
+                      <use href="./images/sprite.svg#name-input"></use>
+                    </svg>
+                  </span>
+                </label>
+                <label class="contact-form-field">
+                  <span class="input-name">Телефон</span>
+                  <span class="contact-form-input-wrapper">
+                    <input
+                      name="user_name"
+                      class="contact-form-input"
+                      type="text"
+                      required
+                    />
+                    <svg width="18" height="18" class="contact-form-icon">
+                      <use href="./images/sprite.svg#tel-input"></use>
+                    </svg>
+                  </span>
+                </label>
+                <label class="contact-form-field">
+                  <span class="input-name">Почта</span>
+                  <span class="contact-form-input-wrapper">
+                    <input
+                      name="user_name"
+                      class="contact-form-input"
+                      type="text"
+                      required
+                    />
+                    <svg width="18" height="18" class="contact-form-icon">
+                      <use href="./images/sprite.svg#mail-input"></use>
+                    </svg>
+                  </span>
+                </label>
+                <label class="contact-form-field">
+                  <span class="input-name">Комментарий</span>
+                  <textarea
+                    name="user_message"
+                    class="contact-form-message"
+                    placeholder="Введите текст"
+                  ></textarea>
+                </label>
+                <div class="contact-form-checkbox-wrapper">
+                  <input
+                    name="accept_policy"
+                    type="checkbox"
+                    class="contact-form-checkbox hide"
+                    id="police-checkbox"
+                    required
+                  />
+                  <label
+                    for="police-checkbox"
+                    class="contact-form-checkbox-label"
+                    >Соглашаюсь с рассылкой и принимаю
+                    <a href="" class="contract-terms"
+                      >Условия договора</a
+                    ></label
+                  >
+                </div>
+                <button type="submit" class="contact-form-submit-btn">
+                  Отправить
+                </button>
+              </form>
             </div>
           </div>
         </div>
@@ -436,6 +509,28 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="footer-mailing">
+          <p class="welcome-social-list">подпишитесь на рассылку</p>
+          <form>
+            <label class="contact-form-field">
+              <span class="contact-form-input-wrapper">
+                <input
+                  name="user_name"
+                  class="contact-form-input-footer"
+                  type="text"
+                  placeholder="E-mail"
+                  required
+                />
+              </span>
+            </label>
+            <button type="submit" class="contact-form-submit-btn-footer">
+              Подписаться
+              <svg class="icon-send-footer" widht="24" height="24">
+                <use href="./images/sprite.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
