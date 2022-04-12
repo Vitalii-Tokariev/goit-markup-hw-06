@@ -760,7 +760,7 @@ ol {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 530px;
-  height: 580px;
+  height: auto;
   background-color: var(--white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -865,6 +865,7 @@ ol {
   padding: 12px 16px;
   resize: none;
   border-radius: 4px;
+  margin-bottom: -4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 .contact-form-message:focus,
