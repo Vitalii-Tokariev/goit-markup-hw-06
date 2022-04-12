@@ -821,9 +821,11 @@ ol {
 }
 .contact-form-field-message {
   display: block;
+  margin-bottom: 18px;
 }
 .contact-form-checkbox-wrapper {
-  margin-bottom: 30px;
+  display: flex;
+  margin-bottom: 28px;
 }
 .contact-form-input {
   width: 100%;
@@ -908,6 +910,11 @@ ol {
   background-position: 50% 50%;
   background-color: var(--blue-color);
   border-color: var(--blue-color);
+}
+.hide-wrapper {
+  position: absolute;
+  opacity: 0;
+  margin-top: 5px;
 }
 .contract-terms {
   font-weight: 400;
